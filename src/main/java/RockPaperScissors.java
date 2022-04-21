@@ -34,6 +34,7 @@ public class RockPaperScissors {
             lose = 0;
             startGame();
         }
+        else System.out.println("Thanks for playing!");
     }
 
     private static int getNumberOfRounds() {
